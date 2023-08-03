@@ -1,0 +1,64 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #8bf1a4;
+}
+
+.main-name {
+  font-family: "Lucida Sans";
+}
+
+/* text writing */
+.container .wrapper {
+  overflow: hidden;
+}
+
+.wrapper .sec-text {
+  position: relative;
+}
+
+.sec-text {
+  font-weight: bold;
+  color: rgb(255, 153, 0);
+}
+
+.sec-text:before {
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: #8bf1a4;
+  border-left: 2px solid blue;
+  animation: animate 4s steps(12) infinite;
+}
+
+@keyframes animate {
+  40%,
+  60% {
+    left: calc(100% + 4px);
+  }
+  100% {
+    left: 0%;
+  }
+}
+/* end text writing */
+
+nav img {
+  width: 170px;
+  height: 30px;
+  padding: 5px;
+}
+
+#project {
+  background-color: #8bf1a4;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
